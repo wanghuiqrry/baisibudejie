@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WATabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+//    设置window的根控制器
+    self.window.rootViewController = [[WATabBarController alloc] init];
+    
+    //  显示window
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
