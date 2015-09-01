@@ -11,6 +11,7 @@
 #import "WAMeViewController.h"
 #import "WAFriendTrendsViewController.h"
 #import "WAEssenceViewController.h"
+#import "WATabBar.h"
 
 
 @interface WATabBarController ()
@@ -27,10 +28,15 @@
     
     // 添加所有的子控制器
     [self setupChildVcs];
+    
+    [self setUpTabBar];
 
 }
 
-
+- (void)setUpTabBar
+{
+    [self setValue:[[WATabBar alloc] init] forKeyPath:@"tabBar"];
+}
 
 - (void)setupChildVcs
 {

@@ -16,6 +16,10 @@
 		6EDC3F251B95C47F005631B7 /* WAFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F241B95C47F005631B7 /* WAFriendTrendsViewController.m */; };
 		6EDC3F281B95C493005631B7 /* WAEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F271B95C493005631B7 /* WAEssenceViewController.m */; };
 		6EDC3F2B1B95CC0C005631B7 /* WATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F2A1B95CC0C005631B7 /* WATabBarController.m */; };
+		6EDC3F2E1B95CE23005631B7 /* WATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F2D1B95CE23005631B7 /* WATabBar.m */; };
+		6EDC3F361B95F400005631B7 /* UIBarButtonItem+WAExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F351B95F400005631B7 /* UIBarButtonItem+WAExtension.m */; };
+		6EDC3F391B95FD39005631B7 /* WASettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F381B95FD39005631B7 /* WASettingViewController.m */; };
+		6EDC3F3C1B960102005631B7 /* WATagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3F3B1B960102005631B7 /* WATagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,15 @@
 		6EDC3F271B95C493005631B7 /* WAEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAEssenceViewController.m; sourceTree = "<group>"; };
 		6EDC3F291B95CC0C005631B7 /* WATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATabBarController.h; sourceTree = "<group>"; };
 		6EDC3F2A1B95CC0C005631B7 /* WATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATabBarController.m; sourceTree = "<group>"; };
+		6EDC3F2C1B95CE23005631B7 /* WATabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATabBar.h; sourceTree = "<group>"; };
+		6EDC3F2D1B95CE23005631B7 /* WATabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATabBar.m; sourceTree = "<group>"; };
+		6EDC3F2F1B95E47E005631B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6EDC3F341B95F400005631B7 /* UIBarButtonItem+WAExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WAExtension.h"; sourceTree = "<group>"; };
+		6EDC3F351B95F400005631B7 /* UIBarButtonItem+WAExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WAExtension.m"; sourceTree = "<group>"; };
+		6EDC3F371B95FD39005631B7 /* WASettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASettingViewController.h; sourceTree = "<group>"; };
+		6EDC3F381B95FD39005631B7 /* WASettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASettingViewController.m; sourceTree = "<group>"; };
+		6EDC3F3A1B960102005631B7 /* WATagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATagViewController.h; sourceTree = "<group>"; };
+		6EDC3F3B1B960102005631B7 /* WATagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +115,15 @@
 				6EDC3F241B95C47F005631B7 /* WAFriendTrendsViewController.m */,
 				6EDC3F261B95C493005631B7 /* WAEssenceViewController.h */,
 				6EDC3F271B95C493005631B7 /* WAEssenceViewController.m */,
+				6EDC3F2C1B95CE23005631B7 /* WATabBar.h */,
+				6EDC3F2D1B95CE23005631B7 /* WATabBar.m */,
+				6EDC3F2F1B95E47E005631B7 /* PrefixHeader.pch */,
+				6EDC3F341B95F400005631B7 /* UIBarButtonItem+WAExtension.h */,
+				6EDC3F351B95F400005631B7 /* UIBarButtonItem+WAExtension.m */,
+				6EDC3F371B95FD39005631B7 /* WASettingViewController.h */,
+				6EDC3F381B95FD39005631B7 /* WASettingViewController.m */,
+				6EDC3F3A1B960102005631B7 /* WATagViewController.h */,
+				6EDC3F3B1B960102005631B7 /* WATagViewController.m */,
 				6EDC3EF41B957BC4005631B7 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -232,7 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDC3F3C1B960102005631B7 /* WATagViewController.m in Sources */,
+				6EDC3F361B95F400005631B7 /* UIBarButtonItem+WAExtension.m in Sources */,
 				6EDC3F2B1B95CC0C005631B7 /* WATabBarController.m in Sources */,
+				6EDC3F2E1B95CE23005631B7 /* WATabBar.m in Sources */,
+				6EDC3F391B95FD39005631B7 /* WASettingViewController.m in Sources */,
 				6EDC3F251B95C47F005631B7 /* WAFriendTrendsViewController.m in Sources */,
 				6EDC3F1F1B95C44A005631B7 /* WAMeViewController.m in Sources */,
 				6EDC3F281B95C493005631B7 /* WAEssenceViewController.m in Sources */,
@@ -348,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "/Users/peanut/Documents/baisibudejie/baisibudejie/百思不得姐/百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

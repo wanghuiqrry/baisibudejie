@@ -7,6 +7,7 @@
 //
 
 #import "WAEssenceViewController.h"
+#import "WATagViewController.h"
 
 @interface WAEssenceViewController ()
 
@@ -18,6 +19,19 @@
     [super viewDidLoad];
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
+    UIBarButtonItem *item = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(buttonClick)];
+    
+    self.navigationItem.leftBarButtonItem = item;
+    
+    
+}
+
+- (void)buttonClick
+{
+    WATagViewController *vc = [[WATagViewController alloc] init];
+    
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by peanut on 15/9/1.
+//  Copyright (c) 2015年 peanut. All rights reserved.
+//
+
+#ifndef ______PrefixHeader_pch
+#define ______PrefixHeader_pch
+#import "UIBarButtonItem+WAExtension.h"
+
+// 日志输出
+#ifdef DEBUG // 开发阶段使用这个方法
+#define WALog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段
+#define WALog(...)
+#endif
+
+//  将打印方法包装起来
+
+#define WALogFunc WALog(@"%s",__func__)
+
+#endif
+
+
+
+

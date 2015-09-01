@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"我的关注";
+    
+    UIBarButtonItem *item = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(buttonClick)];
+    
+    self.navigationItem.leftBarButtonItem = item;
+}
+
+- (void)buttonClick
+{
+    WALogFunc;
 }
 
 @end
