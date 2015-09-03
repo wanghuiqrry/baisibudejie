@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = WACommonBgColor;
+    
     self.navigationItem.title = @"我的";
     
     

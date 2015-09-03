@@ -12,6 +12,7 @@
 #import "WAFriendTrendsViewController.h"
 #import "WAEssenceViewController.h"
 #import "WATabBar.h"
+#import "WANavigationController.h"
 
 
 @interface WATabBarController ()
@@ -40,11 +41,12 @@
 
 - (void)setupChildVcs
 {
+    [self setupChildVc:[[WAFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+    
     [self setupChildVc:[[WAEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     
     [self setupChildVc:[[WANewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     
-    [self setupChildVc:[[WAFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     
     [self setupChildVc:[[WAMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
 }
@@ -53,7 +55,7 @@
 - (void)setupChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
     // 包装一个导航控制器
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    WANavigationController *nav = [[WANavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
     
     // 设置子控制器的tabBarItem

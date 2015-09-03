@@ -34,6 +34,7 @@
 - (void)plusClick
 {
     WALogFunc;
+    
 }
 
 - (void)layoutSubviews
@@ -48,6 +49,7 @@
     CGFloat tabBarButtonW = self.frame.size.width / 5;
     CGFloat tabBarButtonH = self.frame.size.height;
     CGFloat tabBarButtonY = 0;
+    
     
     for (UIView *tabBarButton in self.subviews) {
         //  如果类名(tabBarButton.class)与字符串相同的话

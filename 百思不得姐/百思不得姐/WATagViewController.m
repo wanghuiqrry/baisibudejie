@@ -16,29 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = WACommonBgColor;
     
     self.title = @"推荐标签";
-    self.view.backgroundColor = [UIColor yellowColor];
+//    self.view.backgroundColor = [UIColor yellowColor];
 
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    [button setTitle:@"返回" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
-    
-    [button setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
-    [button setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
-    //  设置按钮大小
-    [button sizeToFit];
-    button.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
-    [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
-- (void)back
-{
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
 
 
 - (void)didReceiveMemoryWarning {

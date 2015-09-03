@@ -8,7 +8,10 @@
 
 #ifndef ______PrefixHeader_pch
 #define ______PrefixHeader_pch
+
+#import "UIKit/UIKit.h"
 #import "UIBarButtonItem+WAExtension.h"
+#import "UIView+WAExtension.h"
 
 // 日志输出
 #ifdef DEBUG // 开发阶段使用这个方法
@@ -20,6 +23,12 @@
 //  将打印方法包装起来
 
 #define WALogFunc WALog(@"%s",__func__)
+
+// 颜色
+#define WAARGBColor(a, r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define WAColor(r, g, b) WAARGBColor(255, (r), (g), (b))
+#define WAGrayColor(v) WAColor((v), (v), (v))
+#define WACommonBgColor WAGrayColor(215)
 
 #endif
 

@@ -7,6 +7,7 @@
 //
 
 #import "WAFriendTrendsViewController.h"
+#import "WALoginRegisterViewController.h"
 
 @interface WAFriendTrendsViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = WACommonBgColor;
     self.navigationItem.title = @"我的关注";
     
     UIBarButtonItem *item = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(buttonClick)];
@@ -25,7 +28,15 @@
 
 - (void)buttonClick
 {
-    WALogFunc;
+//    WALogFunc;
+    
+    UITableViewController *t = [[UITableViewController alloc] init];
+    [self.navigationController pushViewController:t animated:YES ];
+}
+- (IBAction)LoginRegisterClick:(UIButton *)sender {
+    WALoginRegisterViewController *loginRegister = [[WALoginRegisterViewController alloc] init];
+    [self presentViewController:loginRegister animated:YES completion:nil];
+    
 }
 
 @end
