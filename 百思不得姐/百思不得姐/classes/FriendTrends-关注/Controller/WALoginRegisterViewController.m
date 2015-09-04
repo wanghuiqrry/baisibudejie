@@ -9,6 +9,8 @@
 #import "WALoginRegisterViewController.h"
 
 @interface WALoginRegisterViewController ()
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *line;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *line2;
 
 @end
 
@@ -26,6 +28,25 @@
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
+- (IBAction)regiseLabel:(UIButton *)button {
+    
+    if (self.line2.constant == 0) {
+        self.line2.constant = - self.view.width;
+        button.selected = YES;
+    }else{
+        self.line2.constant = 0;
+        button.selected = NO;
+    }
+    
+    [UIView animateWithDuration:0.35 animations:^{
+        [self.view layoutIfNeeded];
+    }];
 }
 
 

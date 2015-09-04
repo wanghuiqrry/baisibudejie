@@ -13,6 +13,7 @@
 		6EADCCB11B9844AD00436990 /* WALoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EADCCAF1B9844AD00436990 /* WALoginRegisterViewController.xib */; };
 		6EADCCB41B989AE400436990 /* WAQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB31B989AE400436990 /* WAQuickLoginButton.m */; };
 		6EADCCB71B989BCD00436990 /* UIView+WAExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB61B989BCD00436990 /* UIView+WAExtension.m */; };
+		6EADCCBA1B997BF300436990 /* WALoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB91B997BF300436990 /* WALoginRegisterTextField.m */; };
 		6EDC3EF71B957BC4005631B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3EF61B957BC4005631B7 /* main.m */; };
 		6EDC3EFA1B957BC4005631B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3EF91B957BC4005631B7 /* AppDelegate.m */; };
 		6EDC3F021B957BC4005631B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDC3F011B957BC4005631B7 /* Images.xcassets */; };
@@ -49,6 +50,8 @@
 		6EADCCB31B989AE400436990 /* WAQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAQuickLoginButton.m; sourceTree = "<group>"; };
 		6EADCCB51B989BCD00436990 /* UIView+WAExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WAExtension.h"; sourceTree = "<group>"; };
 		6EADCCB61B989BCD00436990 /* UIView+WAExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WAExtension.m"; sourceTree = "<group>"; };
+		6EADCCB81B997BF300436990 /* WALoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WALoginRegisterTextField.h; sourceTree = "<group>"; };
+		6EADCCB91B997BF300436990 /* WALoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WALoginRegisterTextField.m; sourceTree = "<group>"; };
 		6EDC3EF11B957BC4005631B7 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDC3EF51B957BC4005631B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EDC3EF61B957BC4005631B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 			children = (
 				6EADCCB21B989AE400436990 /* WAQuickLoginButton.h */,
 				6EADCCB31B989AE400436990 /* WAQuickLoginButton.m */,
+				6EADCCB81B997BF300436990 /* WALoginRegisterTextField.h */,
+				6EADCCB91B997BF300436990 /* WALoginRegisterTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 				6EDC3F361B95F400005631B7 /* UIBarButtonItem+WAExtension.m in Sources */,
 				6EDC3F2B1B95CC0C005631B7 /* WATabBarController.m in Sources */,
 				6EADCCB41B989AE400436990 /* WAQuickLoginButton.m in Sources */,
+				6EADCCBA1B997BF300436990 /* WALoginRegisterTextField.m in Sources */,
 				6EDC3F2E1B95CE23005631B7 /* WATabBar.m in Sources */,
 				6EDC3F391B95FD39005631B7 /* WASettingViewController.m in Sources */,
 				6EDC3F251B95C47F005631B7 /* WAFriendTrendsViewController.m in Sources */,
