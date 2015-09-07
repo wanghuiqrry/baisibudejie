@@ -40,10 +40,13 @@
 }
 
 - (void)setupChildVcs
+
 {
-    [self setupChildVc:[[WAFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     
     [self setupChildVc:[[WAEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+    
+    [self setupChildVc:[[WAFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+    
     
     [self setupChildVc:[[WANewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     

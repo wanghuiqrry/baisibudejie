@@ -12,6 +12,8 @@
 #import "UIKit/UIKit.h"
 #import "UIBarButtonItem+WAExtension.h"
 #import "UIView+WAExtension.h"
+#import "UIImage+WAExtension.h"
+#import "UIImageView+WAExtension.h"
 
 
 // 日志输出
@@ -30,6 +32,10 @@
 #define WAColor(r, g, b) WAARGBColor(255, (r), (g), (b))
 #define WAGrayColor(v) WAColor((v), (v), (v))
 #define WACommonBgColor WAGrayColor(215)
+
+// 弱引用
+
+#define WAWeakSelf __weak typeof(self) weakSelf = self;
 
 #endif
 

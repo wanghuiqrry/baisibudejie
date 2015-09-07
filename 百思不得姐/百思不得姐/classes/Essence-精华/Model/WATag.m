@@ -1,0 +1,13 @@
+//
+//  WATag.m
+//  百思不得姐
+//
+//  Created by peanut on 15/9/6.
+//  Copyright (c) 2015年 peanut. All rights reserved.
+//
+
+#import "WATag.h"
+
+@implementation WATag
+
+@end

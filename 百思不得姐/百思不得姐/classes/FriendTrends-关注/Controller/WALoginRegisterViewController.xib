@@ -79,7 +79,6 @@
                                     <rect key="frame" x="54" y="8" width="103" height="1"/>
                                 </imageView>
                             </subviews>
-                            <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="centerX" secondItem="OM6-qr-shL" secondAttribute="centerX" id="4Rq-GV-uWS"/>
                                 <constraint firstAttribute="centerY" secondItem="hxO-kQ-Lj7" secondAttribute="centerY" constant="-1.75" id="QJU-Jy-6FV"/>
@@ -90,7 +89,7 @@
                                 <constraint firstItem="Kym-Ea-Cgh" firstAttribute="leading" secondItem="OM6-qr-shL" secondAttribute="trailing" id="qrh-Ku-nK1"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PyU-sW-hui">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PyU-sW-hui" userLabel="快速登陆">
                             <rect key="frame" x="0.0" y="14" width="390" height="66"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7q-bd-H82" customClass="WAQuickLoginButton">
@@ -116,7 +115,6 @@
                                     <state key="highlighted" image="login_sina_icon_click"/>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="Ujm-gB-4FA" firstAttribute="leading" secondItem="k7q-bd-H82" secondAttribute="trailing" id="1Kg-Gn-bh3"/>
                                 <constraint firstItem="tRj-2O-Cq4" firstAttribute="top" secondItem="PyU-sW-hui" secondAttribute="top" id="4Pp-PE-FXG"/>
@@ -261,8 +259,8 @@
                             </constraints>
                             <variation key="default">
                                 <mask key="constraints">
-                                    <exclude reference="hj1-As-vHr"/>
                                     <exclude reference="hWD-Es-joP"/>
+                                    <exclude reference="hj1-As-vHr"/>
                                 </mask>
                             </variation>
                         </view>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B5F516E96A85E81D610D29C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E829AE26CA5949176F306966 /* libPods.a */; };
+		6E1D2C121B9DA1010054586E /* UIImage+WAExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D2C111B9DA1010054586E /* UIImage+WAExtension.m */; };
+		6E1D2C151B9DA37F0054586E /* UIImageView+WAExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D2C141B9DA37F0054586E /* UIImageView+WAExtension.m */; };
 		6EADCC901B9811B300436990 /* WANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCC8F1B9811B300436990 /* WANavigationController.m */; };
 		6EADCCAC1B983CC500436990 /* WAFriendTrendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EADCCAB1B983CC500436990 /* WAFriendTrendsView.xib */; };
 		6EADCCB01B9844AD00436990 /* WALoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCAE1B9844AD00436990 /* WALoginRegisterViewController.m */; };
@@ -14,6 +17,9 @@
 		6EADCCB41B989AE400436990 /* WAQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB31B989AE400436990 /* WAQuickLoginButton.m */; };
 		6EADCCB71B989BCD00436990 /* UIView+WAExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB61B989BCD00436990 /* UIView+WAExtension.m */; };
 		6EADCCBA1B997BF300436990 /* WALoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCCB91B997BF300436990 /* WALoginRegisterTextField.m */; };
+		6ED52DEF1B9C570200C57788 /* WATagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED52DED1B9C570200C57788 /* WATagCell.m */; };
+		6ED52DF01B9C570200C57788 /* WATagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED52DEE1B9C570200C57788 /* WATagCell.xib */; };
+		6ED52DF31B9C5EAD00C57788 /* WATag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED52DF21B9C5EAD00C57788 /* WATag.m */; };
 		6EDC3EF71B957BC4005631B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3EF61B957BC4005631B7 /* main.m */; };
 		6EDC3EFA1B957BC4005631B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC3EF91B957BC4005631B7 /* AppDelegate.m */; };
 		6EDC3F021B957BC4005631B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDC3F011B957BC4005631B7 /* Images.xcassets */; };
@@ -40,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6749344D350C0E2D4CD9F3E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6E1D2C101B9DA1010054586E /* UIImage+WAExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WAExtension.h"; sourceTree = "<group>"; };
+		6E1D2C111B9DA1010054586E /* UIImage+WAExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WAExtension.m"; sourceTree = "<group>"; };
+		6E1D2C131B9DA37F0054586E /* UIImageView+WAExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WAExtension.h"; sourceTree = "<group>"; };
+		6E1D2C141B9DA37F0054586E /* UIImageView+WAExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WAExtension.m"; sourceTree = "<group>"; };
 		6EADCC8E1B9811B300436990 /* WANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WANavigationController.h; path = ../../../WANavigationController.h; sourceTree = "<group>"; };
 		6EADCC8F1B9811B300436990 /* WANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WANavigationController.m; path = ../../../WANavigationController.m; sourceTree = "<group>"; };
 		6EADCCAB1B983CC500436990 /* WAFriendTrendsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAFriendTrendsView.xib; sourceTree = "<group>"; };
@@ -52,6 +63,11 @@
 		6EADCCB61B989BCD00436990 /* UIView+WAExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WAExtension.m"; sourceTree = "<group>"; };
 		6EADCCB81B997BF300436990 /* WALoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WALoginRegisterTextField.h; sourceTree = "<group>"; };
 		6EADCCB91B997BF300436990 /* WALoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WALoginRegisterTextField.m; sourceTree = "<group>"; };
+		6ED52DEC1B9C570200C57788 /* WATagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WATagCell.h; path = "百思不得姐/classes/Essence-精华/WATagCell.h"; sourceTree = SOURCE_ROOT; };
+		6ED52DED1B9C570200C57788 /* WATagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WATagCell.m; path = "百思不得姐/classes/Essence-精华/WATagCell.m"; sourceTree = SOURCE_ROOT; };
+		6ED52DEE1B9C570200C57788 /* WATagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WATagCell.xib; path = "百思不得姐/classes/Essence-精华/WATagCell.xib"; sourceTree = SOURCE_ROOT; };
+		6ED52DF11B9C5EAD00C57788 /* WATag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATag.h; sourceTree = "<group>"; };
+		6ED52DF21B9C5EAD00C57788 /* WATag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATag.m; sourceTree = "<group>"; };
 		6EDC3EF11B957BC4005631B7 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDC3EF51B957BC4005631B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EDC3EF61B957BC4005631B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
@@ -80,6 +96,8 @@
 		6EDC3F381B95FD39005631B7 /* WASettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WASettingViewController.m; path = ../../../WASettingViewController.m; sourceTree = "<group>"; };
 		6EDC3F3A1B960102005631B7 /* WATagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WATagViewController.h; path = ../../../WATagViewController.h; sourceTree = "<group>"; };
 		6EDC3F3B1B960102005631B7 /* WATagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WATagViewController.m; path = ../../../WATagViewController.m; sourceTree = "<group>"; };
+		96E167D35B22F0204594D703 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E829AE26CA5949176F306966 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5F516E96A85E81D610D29C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4689B299258EA1EFE0078935 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E829AE26CA5949176F306966 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6EADCC911B98356B00436990 /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +167,8 @@
 		6EADCC941B9836B400436990 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6ED52DF11B9C5EAD00C57788 /* WATag.h */,
+				6ED52DF21B9C5EAD00C57788 /* WATag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +176,9 @@
 		6EADCC951B9836B400436990 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6ED52DEC1B9C570200C57788 /* WATagCell.h */,
+				6ED52DED1B9C570200C57788 /* WATagCell.m */,
+				6ED52DEE1B9C570200C57788 /* WATagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +337,10 @@
 				6EDC3F351B95F400005631B7 /* UIBarButtonItem+WAExtension.m */,
 				6EADCCB51B989BCD00436990 /* UIView+WAExtension.h */,
 				6EADCCB61B989BCD00436990 /* UIView+WAExtension.m */,
+				6E1D2C101B9DA1010054586E /* UIImage+WAExtension.h */,
+				6E1D2C111B9DA1010054586E /* UIImage+WAExtension.m */,
+				6E1D2C131B9DA37F0054586E /* UIImageView+WAExtension.h */,
+				6E1D2C141B9DA37F0054586E /* UIImageView+WAExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -315,6 +351,8 @@
 				6EDC3EF31B957BC4005631B7 /* 百思不得姐 */,
 				6EDC3F0D1B957BC4005631B7 /* 百思不得姐Tests */,
 				6EDC3EF21B957BC4005631B7 /* Products */,
+				875CCEA80725C76B5659E607 /* Pods */,
+				4689B299258EA1EFE0078935 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -362,6 +400,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		875CCEA80725C76B5659E607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96E167D35B22F0204594D703 /* Pods.debug.xcconfig */,
+				6749344D350C0E2D4CD9F3E8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -369,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EDC3F141B957BC4005631B7 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				158076B8E525CF7B74001FDA /* Check Pods Manifest.lock */,
 				6EDC3EED1B957BC4005631B7 /* Sources */,
 				6EDC3EEE1B957BC4005631B7 /* Frameworks */,
 				6EDC3EEF1B957BC4005631B7 /* Resources */,
+				48701DB9CC98A793CD88EA32 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -445,6 +494,7 @@
 			files = (
 				6EADCCAC1B983CC500436990 /* WAFriendTrendsView.xib in Resources */,
 				6EDC3F021B957BC4005631B7 /* Images.xcassets in Resources */,
+				6ED52DF01B9C570200C57788 /* WATagCell.xib in Resources */,
 				6EADCCB11B9844AD00436990 /* WALoginRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,22 +508,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		158076B8E525CF7B74001FDA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48701DB9CC98A793CD88EA32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EDC3EED1B957BC4005631B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1D2C151B9DA37F0054586E /* UIImageView+WAExtension.m in Sources */,
 				6EDC3F3C1B960102005631B7 /* WATagViewController.m in Sources */,
 				6EDC3F361B95F400005631B7 /* UIBarButtonItem+WAExtension.m in Sources */,
 				6EDC3F2B1B95CC0C005631B7 /* WATabBarController.m in Sources */,
 				6EADCCB41B989AE400436990 /* WAQuickLoginButton.m in Sources */,
+				6ED52DEF1B9C570200C57788 /* WATagCell.m in Sources */,
 				6EADCCBA1B997BF300436990 /* WALoginRegisterTextField.m in Sources */,
+				6E1D2C121B9DA1010054586E /* UIImage+WAExtension.m in Sources */,
 				6EDC3F2E1B95CE23005631B7 /* WATabBar.m in Sources */,
 				6EDC3F391B95FD39005631B7 /* WASettingViewController.m in Sources */,
 				6EDC3F251B95C47F005631B7 /* WAFriendTrendsViewController.m in Sources */,
 				6EDC3F1F1B95C44A005631B7 /* WAMeViewController.m in Sources */,
 				6EADCC901B9811B300436990 /* WANavigationController.m in Sources */,
 				6EDC3F281B95C493005631B7 /* WAEssenceViewController.m in Sources */,
+				6ED52DF31B9C5EAD00C57788 /* WATag.m in Sources */,
 				6EADCCB01B9844AD00436990 /* WALoginRegisterViewController.m in Sources */,
 				6EDC3F221B95C461005631B7 /* WANewViewController.m in Sources */,
 				6EDC3EFA1B957BC4005631B7 /* AppDelegate.m in Sources */,
@@ -585,6 +672,7 @@
 		};
 		6EDC3F151B957BC4005631B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E167D35B22F0204594D703 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -597,6 +685,7 @@
 		};
 		6EDC3F161B957BC4005631B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6749344D350C0E2D4CD9F3E8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

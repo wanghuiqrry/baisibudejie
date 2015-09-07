@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WATagViewController : UIViewController
+@interface WATagViewController : UITableViewController
 
 @end
